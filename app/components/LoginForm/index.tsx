@@ -46,7 +46,7 @@ const LoginForm: React.FC<LoginFormProps> = ({}) => {
     return (
       <View className="h-full w-full flex items-center justify-center gap-5">
         <View className="p-5">
-          <Text className="text-slate-800 text-xl">Creating Room</Text>
+          <Text className="text-slate-800 text-xl">Joining Room</Text>
         </View>
         <ActivityIndicator size="large" color="#374151" />
       </View>
