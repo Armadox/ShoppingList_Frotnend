@@ -10,11 +10,21 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Set up backend -> [ShoppingList_Backend](https://github.com/Armadox/ShoppingList_Backend)
+
+3. Insert required environment variables to connect to backend
+
+   ```bash
+    EXPO_PUBLIC_BACKEND_URL = "https://backend"
+   ```
+
+3. Start the app
 
    ```bash
     npx expo start
    ```
+
+APK build: [ShopList](https://expo.dev/accounts/armadox/projects/ShopList/builds/d505f36f-0fb3-4846-87fc-da4bbe3b722c)
 
 In the output, you'll find options to open the app in a
 
