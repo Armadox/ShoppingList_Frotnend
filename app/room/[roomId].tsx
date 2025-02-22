@@ -166,10 +166,7 @@ const RoomScreen = () => {
             <ArrowLeftIcon width={20} height={20} color={"#374151"} />
           </TouchableOpacity>
 
-          <Text className="text-lg font-extralight">
-            {roomCode &&
-              `${roomCode[0]}${roomCode[1]}-${roomCode[2]}${roomCode[3]}${roomCode[4]}${roomCode[5]}${roomCode[6]}${roomCode[7]}`}
-          </Text>
+          <Text className="text-lg font-extralight">{roomCode}</Text>
           <TouchableOpacity
             className="w-[35px] h-[35px] border-slate-400 border-[1px] text-center flex items-center justify-center rounded mx-5 my-1"
             onPress={() => setAddingList(!addingList)}

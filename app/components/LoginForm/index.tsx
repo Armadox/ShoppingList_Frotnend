@@ -29,7 +29,7 @@ const LoginForm: React.FC<LoginFormProps> = ({}) => {
     if (!password || !code) return alert("Please enter code and password!");
     setLoading(true);
     try {
-      const data: LogInType = await getRoom(password, code);
+      const data: LogInType = await getRoom(code, password);
       if (data) {
         await AsyncStorage.setItem(`data`, JSON.stringify(data));
         setLoading(false);
@@ -38,7 +38,7 @@ const LoginForm: React.FC<LoginFormProps> = ({}) => {
       setLoading(false);
     } catch (error) {
       setLoading(false);
-      alert("Error sending data for Login!");
+      alert("Please check your Code and Password!");
     }
   };
 
