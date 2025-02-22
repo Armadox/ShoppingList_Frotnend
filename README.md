@@ -11,7 +11,7 @@
 3. Insert required environment variables to connect to backend
 
    ```bash
-    EXPO_PUBLIC_BACKEND_URL = "https://backend"
+    EXPO_PUBLIC_BACKEND_URL = "https://backendurl.com"
    ```
 
 3. Start the app
